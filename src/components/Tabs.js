@@ -19,7 +19,7 @@ function Tabs( {items} ) {
                     )
                 })}
             </div>
-            <div className={styles.content}>{props.items[activeIndex]
+            <div className={styles.content}>{items[activeIndex]
             .content}</div>
         </div>
     )
